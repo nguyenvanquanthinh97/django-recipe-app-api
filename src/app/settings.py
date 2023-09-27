@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'core',
     # settings for swagger
     'rest_framework',
-    'drf_spectacular'
+    'drf_spectacular',
+    'user',
 ]
 
 MIDDLEWARE = [
