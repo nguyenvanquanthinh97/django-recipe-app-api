@@ -41,4 +41,4 @@ ENV PATH="/scripts:/py/bin:$PATH"
 
 USER django-user
 
-CMD ["sh", "-c", "python manage.py runserver 0.0.0.0:8000"]
+CMD ["run.sh"]
